@@ -7,10 +7,10 @@ import api from './localhost';
 
 let defaultSetting = {
     api: {
-        url: process.env.REACT_APP_LOCAL_API_URL,
+        url: process.env.REACT_APP_API_URL,
         mode: 'cors'
     },
-    socket: process.env.REACT_APP_LOCAL_SOCKET_URL
+    socket: process.env.REACT_APP_SOCKET_URL
 }
 
 let siteSetting = defaultSetting;
